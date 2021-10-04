@@ -1,0 +1,274 @@
+:root {
+    --font-color-headers: #ffffff;
+    --font-color-content: #000000;
+    --shadow-color: #000000;
+    --border-color: #000000;
+}
+
+/* body and misc styles */
+
+body {
+    height: 100%;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--font-color-headers);
+}
+
+/* header and navigation */
+
+header {
+    shape-image-threshold: inherit;
+    height: auto;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header .header-space{
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    flex: 75%;
+}
+
+.nav-button {
+    padding: 20px;
+    background-color: #0094e9;
+}
+
+.nav-button:hover {
+    text-shadow: 1px 1px 3px grey;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.logo-container {
+    background-color: white;
+    text-align: start;
+    flex: 100%;
+}
+
+.northwest-container {
+    flex: 25%;
+    font-size: 100%;
+    text-align: start;
+    background-color: grey;
+
+}
+
+/* Formatting */
+
+.top-bottom-space {
+    height: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.space {
+    height: 50px;
+    width: 100%;
+}
+
+aside {
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+    font-size: 200%;
+    border-right: 2px solid var(--border-color);
+}
+
+.content {
+    flex: 5;
+    padding: 25px;
+    text-align: start;
+    line-height: normal;
+    width: 100%;
+    margin: 0px;
+}
+
+/* About Me Container */
+
+/* no extra formatting here */
+
+/* Work Container */
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content li {
+    flex: 50%;
+}
+
+.work-content li:nth-child(1) {
+    flex: 100%;
+}
+
+.card {
+    position: relative;
+    width: auto;
+    height: 200px;
+    border: 6px solid white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-dana-tentis-370799.jpg);
+    margin: 15px;
+    padding-top: 15px;
+    color: var(--font-color-headers);
+    font-size: 200%;
+    text-shadow: 1px 1px 5px var(--shadow-color);
+    text-align: center;
+}
+
+.cardheader {
+    color: var(--font-color-headers);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    position: absolute;
+    font-size: 50%;
+    bottom: 0px;
+    left: 0px;
+    background-color: #013220;
+    padding: 10px;
+}
+
+/* Work images */
+
+#work-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-joey-kyber-119591.jpg);
+    background-size: cover;
+}
+
+#work-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-peter-fazekas-1653631.jpg);
+    background-size: cover;
+}
+
+#work-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-pixabay-268908.jpg);
+    background-size: cover;
+}
+
+#work-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-richa-sharma-4215449.jpg);
+    background-size: cover;
+}
+
+#work-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-sơn-bờm-1819713.jpg);
+    background-size: cover;
+}
+
+/* Work hover */
+
+#work-1:hover {
+    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-joey-kyber-119591.jpg);
+    background-size: cover;
+}
+
+#work-2:hover {
+    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-peter-fazekas-1653631.jpg);
+    background-size: cover;
+}
+
+#work-3:hover {
+    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-pixabay-268908.jpg);
+    background-size: cover;
+}
+
+#work-4:hover {
+    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-richa-sharma-4215449.jpg);
+    background-size: cover;
+}
+
+#work-5:hover {
+    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-sơn-bờm-1819713.jpg);
+    background-size: cover;
+}
+
+/* Contact Container */
+
+.contact-content {
+    margin: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
+    background-size: cover;
+    height: auto;
+    padding: 25px;
+    align-content: center;
+    color: var(--font-color-headers);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid var(--border-color);
+    text-align: center;
+}
+
+footer a:visited, footer a:link {
+    color: lightgreen;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    header, nav, .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .name {
+        order: 1;
+        width: 100%;
+    }
+    .morganphoto {
+        order: 2;
+        width: 100%
+    }
+    header nav {
+        width: 100%;
+        order: 3;
+    }
+    aside {
+        order: 1;
+        width: 100%;
+        text-decoration: underline;
+        border-right: 0;
+    }
+    .content {
+        order: 2;
+        width: 100%;
+    }
+    .work-content li {
+        flex: 100%;
+    }
