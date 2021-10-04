@@ -22,28 +22,28 @@ a:link, a:visited {
 /* header and navigation */
 
 header {
-    shape-image-threshold: inherit;
-    height: auto;
-    width:auto;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
+
 }
 
-header .header-space{
-    background-color: #0094e9;
+header .header-space {
+    background-color: grey;
+    height: 92px;
+    flex: 2;
 }
 
 nav {
     display: flex;
     text-align: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-content: center;
+    align-items: center;
     color: white;
-    flex: 75%;
-    background-color: #0094e9;
+    background-color:  #0094e9;
 }
 
 .nav-button {
@@ -63,18 +63,15 @@ nav a:link, nav a:visited {
 }
 
 .logo-container {
-    background-color: white;
-    text-align: end;
+    font-weight: bold;
+    text-align: center;
     flex: 100%;
     background-color: yellow;
-    height: 100px;
+    padding: 5px;
 }
 
 .northwest-container {
     text-align: start;
-    background-color: white;
-    
-
 }
 
 
@@ -91,8 +88,6 @@ nav a:link, nav a:visited {
 /* Footer */
 
 footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
-    background-size: cover;
     height: auto;
     padding: 25px;
     align-content: center;
@@ -115,33 +110,27 @@ footer a:hover {
 /* Responsive Design */
 
 @media screen and (max-width: 768px) {
-    header, nav, .wrapper {
+    header, nav {
         flex-wrap: wrap;
         flex-direction: column;
         height: auto;
     }
-    .name {
-        order: 1;
-        width: 100%;
+
+    .northwest-container {
+        text-align: center;
     }
-    .morganphoto {
-        order: 2;
-        width: 100%
+
+    .header-image {
+        width: 90%;
+        height: 90%;
     }
+
+    .header-space {
+        margin: 15px;
+    }
+
     header nav {
         width: 100%;
         order: 3;
     }
-    aside {
-        order: 1;
-        width: 100%;
-        text-decoration: underline;
-        border-right: 0;
-    }
-    .content {
-        order: 2;
-        width: 100%;
-    }
-    .work-content li {
-        flex: 100%;
-    }
+    
