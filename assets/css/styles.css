@@ -28,19 +28,22 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 header .header-space{
+    background-color: #0094e9;
 }
 
 nav {
     display: flex;
     text-align: center;
     justify-content: flex-end;
-    align-items: center;
+    align-content: center;
     color: white;
     flex: 75%;
+    background-color: #0094e9;
 }
 
 .nav-button {
@@ -61,17 +64,20 @@ nav a:link, nav a:visited {
 
 .logo-container {
     background-color: white;
-    text-align: start;
+    text-align: end;
     flex: 100%;
+    background-color: yellow;
+    height: 100px;
 }
 
 .northwest-container {
-    flex: 25%;
-    font-size: 100%;
     text-align: start;
-    background-color: grey;
+    background-color: white;
+    
 
 }
+
+
 
 /* Formatting */
 
@@ -79,140 +85,8 @@ nav a:link, nav a:visited {
     height: 50px;
 }
 
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
 
-.space {
-    height: 50px;
-    width: 100%;
-}
 
-aside {
-    flex: 1;
-    padding: 10px;
-    text-align: right;
-    font-size: 200%;
-    border-right: 2px solid var(--border-color);
-}
-
-.content {
-    flex: 5;
-    padding: 25px;
-    text-align: start;
-    line-height: normal;
-    width: 100%;
-    margin: 0px;
-}
-
-/* About Me Container */
-
-/* no extra formatting here */
-
-/* Work Container */
-
-.content ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.content li {
-    flex: 50%;
-}
-
-.work-content li:nth-child(1) {
-    flex: 100%;
-}
-
-.card {
-    position: relative;
-    width: auto;
-    height: 200px;
-    border: 6px solid white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-dana-tentis-370799.jpg);
-    margin: 15px;
-    padding-top: 15px;
-    color: var(--font-color-headers);
-    font-size: 200%;
-    text-shadow: 1px 1px 5px var(--shadow-color);
-    text-align: center;
-}
-
-.cardheader {
-    color: var(--font-color-headers);
-    text-shadow: 1px 1px 5px rgb(0, 0, 0);
-    position: absolute;
-    font-size: 50%;
-    bottom: 0px;
-    left: 0px;
-    background-color: #013220;
-    padding: 10px;
-}
-
-/* Work images */
-
-#work-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-joey-kyber-119591.jpg);
-    background-size: cover;
-}
-
-#work-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-peter-fazekas-1653631.jpg);
-    background-size: cover;
-}
-
-#work-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-pixabay-268908.jpg);
-    background-size: cover;
-}
-
-#work-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-richa-sharma-4215449.jpg);
-    background-size: cover;
-}
-
-#work-5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/smaller/pexels-sơn-bờm-1819713.jpg);
-    background-size: cover;
-}
-
-/* Work hover */
-
-#work-1:hover {
-    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-joey-kyber-119591.jpg);
-    background-size: cover;
-}
-
-#work-2:hover {
-    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-peter-fazekas-1653631.jpg);
-    background-size: cover;
-}
-
-#work-3:hover {
-    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-pixabay-268908.jpg);
-    background-size: cover;
-}
-
-#work-4:hover {
-    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-richa-sharma-4215449.jpg);
-    background-size: cover;
-}
-
-#work-5:hover {
-    background-image: linear-gradient( rgba(136, 137, 167, 0.5), rgba(48, 54, 88, 0.53)), url(../images/smaller/pexels-sơn-bờm-1819713.jpg);
-    background-size: cover;
-}
-
-/* Contact Container */
-
-.contact-content {
-    margin: 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-}
 
 /* Footer */
 
@@ -227,7 +101,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 2px solid var(--border-color);
     text-align: center;
 }
 
