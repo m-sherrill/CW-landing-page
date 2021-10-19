@@ -73,8 +73,9 @@ body {
 
 footer {
     text-align: center;
-    background-color: lightgrey;
+    background-color: #0094e9;
     padding: 20px;
+    color: white;
 }
 
 .card {
@@ -108,4 +109,9 @@ header {
     width: 100%;
     padding: 0px;
     margin-bottom: 20px;
+}
+
+.hero {
+    width: 25%;
+    height: 25%;
 }
