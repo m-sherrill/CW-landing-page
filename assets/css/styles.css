@@ -36,7 +36,6 @@
 .navbar {
     padding: 10px;
     margin-right: 0px;
-    background-color: white;
     justify-content: end;
 
 }
@@ -48,13 +47,15 @@
     margin-bottom: 0px;
 }
 #card-header {
-    background-color: rgb(235, 235, 235);
+    background-color: #0094e9;
     margin: 0px;
     text-align: center;
     border: none;
     padding: 10px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(112, 112, 112);
 }
 
 
@@ -73,9 +74,9 @@ body {
 
 footer {
     text-align: center;
-    background-color: #0094e9;
+    background-color: lightgrey;
     padding: 20px;
-    color: white;
+    color: black;
 }
 
 .card {
