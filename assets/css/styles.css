@@ -7,10 +7,10 @@
 
 /* body and misc styles */
 
+
 .jumbotron {
     width: 100%;
     background-color: white;
-
     margin: 0px;
     /* align-items: center; */
 }
@@ -52,7 +52,11 @@
     margin-bottom: 0px;
 }
 #card-header {
-    background-color: yellow;
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+    text-align: center;
+    border: none;
+    padding: 15px;
 }
 
 body {
@@ -74,15 +78,12 @@ footer {
 }
 
 .card {
-    padding: 10px;
     margin: 10px;
     width: 100%;
 }
 
-#card-header {
-    border: 1px solid darkgray;
-    margin: 10px;
-    padding: 10px;
+#card-content {
+    padding: 20px;
 }
 
 header {
