@@ -56,7 +56,8 @@
     margin: 0px;
     text-align: center;
     border: none;
-    padding: 15px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 body {
@@ -78,14 +79,25 @@ footer {
 }
 
 .card {
-    margin: 10px;
+    margin: 5px;
     width: 100%;
 }
 
+.btn {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
 #card-content {
-    padding: 20px;
+    padding: 10px;
 }
 
 header {
     margin-bottom: 0px;
+}
+
+#hto {
+    padding: 10px;
 }
