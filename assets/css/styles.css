@@ -95,9 +95,6 @@ header {
     margin-bottom: 0px;
 }
 
-#hto {
-    padding: 10px;
-}
 
 .card-body {
     font-family: 'Raleway', sans-serif;
@@ -105,4 +102,9 @@ header {
 
 #order-card {
     border: none;
+}
+
+.row {
+    width: 100%;
+    padding: 0px;
 }
