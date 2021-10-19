@@ -116,3 +116,7 @@ header {
     width: 25%;
     height: 25%;
 }
+
+#hamburger {
+    padding: 20px;
+}
