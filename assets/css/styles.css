@@ -1,9 +1,3 @@
-:root {
-    --font-color-headers: #ffffff;
-    --font-color-content: #000000;
-    --shadow-color: #000000;
-    --border-color: #000000;
-}
 
 /* body and misc styles */
 
@@ -12,6 +6,8 @@
     width: 100%;
     background-color: white;
     margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     /* align-items: center; */
 }
 
@@ -58,7 +54,9 @@
     border: none;
     padding: 10px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 body {
     height: 100%;
@@ -76,6 +74,7 @@ body {
 footer {
     text-align: center;
     background-color: lightgrey;
+    padding: 20px;
 }
 
 .card {
@@ -98,4 +97,12 @@ header {
 
 #hto {
     padding: 10px;
+}
+
+.card-body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#order-card {
+    border: none;
 }
